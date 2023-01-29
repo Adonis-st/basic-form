@@ -1,0 +1,150 @@
+body {
+	background-color: #131518;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	margin: 0 auto;
+	background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+	padding: 20px 20px;
+	border-radius: 15px;
+	max-width: 412px;
+}
+
+.icon {
+	background-color: #262e38;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	padding: 13px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 24px;
+	color: white;
+	line-height: 30.38px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	width: fit-content;
+	color: #fc7614;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #262e38;
+	padding: 8px;
+	border-radius: 22.5px;
+}
+
+p {
+	color: #969fad;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.rating-btn {
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 15px;
+	color: #7c8798;
+	background-color: #262e38;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+	margin-right: 14px;
+	border: none;
+}
+
+.submit-btn {
+	width: 100%;
+	background-color: #fc7614;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 22.5px;
+	border: none;
+	height: 45px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.illustration {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.thank-you-message {
+	text-align: center;
+	color: #969fad;
+	font-size: 14px;
+}
+
+.selected {
+	background-color: #7c8798;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	.icon {
+		width: 48px;
+		height: 48px;
+		padding: 15px;
+	}
+
+	h1 {
+		font-size: 28px;
+		line-height: 35.45px;
+	}
+
+	p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+
+	.rating-btn {
+		font-size: 16px;
+		width: 51px;
+		height: 51px;
+		margin-right: 20px;
+	}
+
+	.rating-btn:hover {
+		color: white;
+		background-color: #fc7614;
+	}
+
+	.submit-btn {
+		font-size: 15px;
+	}
+
+	.submit-btn:hover {
+		color: #fc7614;
+		background-color: white;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+}

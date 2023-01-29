@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container" id="form">
+			<img src="images/icon-star.svg" alt="icon" class="icon" />
+
+			<h1>How did we do?</h1>
+			<p>
+				Please let us know how we did with your support request. All feedback is appreciated to
+				help us improve our offering!
+			</p>
+			<div id="btn-group">
+				<button class="rating-btn" onclick="rating1()" id="btn-1">1</button>
+				<button class="rating-btn" onclick="rating2()" id="btn-2">2</button>
+				<button class="rating-btn" onclick="rating3()" id="btn-3">3</button>
+				<button class="rating-btn" onclick="rating4()" id="btn-4">4</button>
+				<button class="rating-btn" onclick="rating5()" id="btn-5">5</button>
+			</div>
+
+			<button class="submit-btn" onclick="handleSubmit()">SUBMIT</button>
+		</div>
+
+		<div class="container hidden" id="thanks">
+			<img
+				src="images/illustration-thank-you.svg"
+				alt="illustration-thank-you"
+				class="illustration" />
+
+			<h4 id="selected-rating"></h4>
+
+			<h2>Thank you!</h2>
+			<p class="thank-you-message">
+				We appreciate you taking the time to give a rating. If you ever need more support, don't
+				hesitate to get in touch!
+			</p>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
